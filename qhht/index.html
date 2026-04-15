@@ -1,0 +1,358 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8">
+<title>QHHT מידע והכנה לסשן</title>
+<style>
+  @page {
+    size: A4;
+    margin: 17mm 16mm 18mm 16mm;
+    @bottom-center {
+      content: counter(page);
+      font-family: "Noto Sans Hebrew", sans-serif;
+      font-size: 10pt;
+      color: #6d766f;
+    }
+  }
+
+  :root{
+    --ink:#223029;
+    --muted:#5f6c63;
+    --line:#d7ddd8;
+    --soft:#f6f8f6;
+    --accent:#48685a;
+    --accent-soft:#edf3ef;
+    --warn:#fbf4e6;
+    --warn-line:#d7b46a;
+  }
+
+  *{ box-sizing:border-box; }
+
+  body{
+    margin:0;
+    font-family:"Noto Sans Hebrew","DejaVu Sans",sans-serif;
+    color:var(--ink);
+    direction:rtl;
+    text-align:right;
+    line-height:1.62;
+    font-size:11.6pt;
+    background:#fff;
+  }
+
+  .cover{
+    border:1px solid var(--line);
+    border-radius:18px;
+    padding:24mm 14mm 16mm;
+    background:linear-gradient(180deg,#f8faf8 0%, #ffffff 42%);
+    margin-bottom:10mm;
+  }
+
+  .eyebrow{
+    color:var(--accent);
+    font-size:11pt;
+    font-weight:600;
+    letter-spacing:0.2px;
+    margin:0 0 6mm 0;
+  }
+
+  h1{
+    margin:0 0 3mm 0;
+    font-size:27pt;
+    line-height:1.2;
+    color:var(--ink);
+  }
+
+  .subtitle{
+    font-size:13pt;
+    color:var(--muted);
+    margin:0 0 12mm 0;
+  }
+
+  .intro{
+    background:#fff;
+    border:1px solid var(--line);
+    border-radius:14px;
+    padding:7mm 7mm 5mm;
+  }
+
+  .intro p{
+    margin:0 0 4mm 0;
+  }
+
+  .disclaimer{
+    margin-top:5mm;
+    background:var(--warn);
+    border-right:4px solid var(--warn-line);
+    border-radius:12px;
+    padding:5mm 5mm 4mm;
+    page-break-inside:avoid;
+  }
+
+  h2{
+    margin:10mm 0 4mm;
+    color:var(--accent);
+    font-size:17pt;
+    line-height:1.3;
+    border-bottom:1px solid var(--line);
+    padding-bottom:2.5mm;
+    page-break-after:avoid;
+  }
+
+  .section{
+    page-break-inside:avoid;
+  }
+
+  ul{
+    margin:0;
+    padding:0 0 0 0;
+    list-style:none;
+  }
+
+  li{
+    margin:0 0 3.2mm 0;
+    padding-right:5.8mm;
+    position:relative;
+  }
+
+  li::before{
+    content:"•";
+    position:absolute;
+    right:0;
+    top:0;
+    color:var(--accent);
+    font-weight:700;
+  }
+
+  .timeline{
+    display:block;
+  }
+
+  .stage{
+    border:1px solid var(--line);
+    border-radius:14px;
+    padding:6mm 6mm 4.5mm;
+    margin:0 0 5mm 0;
+    background:var(--soft);
+    page-break-inside:avoid;
+  }
+
+  .stage h3{
+    margin:0 0 3mm;
+    color:var(--ink);
+    font-size:13.5pt;
+    line-height:1.35;
+  }
+
+  .label{
+    font-weight:700;
+    color:var(--ink);
+  }
+
+  .mini-title{
+    margin:4mm 0 2mm;
+    color:var(--accent);
+    font-weight:700;
+    font-size:11.8pt;
+  }
+
+  .grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:5mm;
+    margin-top:3mm;
+  }
+
+  .card{
+    border:1px solid var(--line);
+    border-radius:14px;
+    padding:5mm 5mm 4mm;
+    background:#fff;
+    page-break-inside:avoid;
+  }
+
+  .card h3{
+    margin:0 0 3.5mm;
+    font-size:13.2pt;
+    color:var(--accent);
+  }
+
+  .note{
+    margin-top:4mm;
+    background:var(--accent-soft);
+    border-right:4px solid var(--accent);
+    border-radius:12px;
+    padding:4.5mm 5mm;
+    page-break-inside:avoid;
+  }
+
+  .closing{
+    margin-top:10mm;
+    border-top:1px solid var(--line);
+    padding-top:8mm;
+    page-break-inside:avoid;
+  }
+
+  .signature{
+    margin-top:10mm;
+    font-weight:700;
+    color:var(--accent);
+  }
+</style>
+</head>
+<body>
+
+<section class="cover">
+  <p class="eyebrow">דף מידע והכנה לסשן</p>
+  <h1>QHHT</h1>
+  <p class="subtitle">מידע מקדים לקראת הסשן  מה צפוי בתהליך  ואיך להגיע מוכנים</p>
+
+  <div class="intro">
+    <p>QHHT היא חוויה עמוקה של הרפיה המאפשרת חיבור לתת־המודע שלך, לאני העליון ולתודעה הגבוהה  החלק החכם והאוהב ביותר בתוכך שמכיל את כל התשובות.</p>
+    <p>הדבר החשוב והיפה הוא שהאני העליון הוא חלק ממך. זו את או אתה, פשוט ברמות תודעה עמוקות יותר. לכן המידע שמתקבל אינו עובר דרך מסנן של מישהו אחר, אלא דרכך  דרך אותו חלק שתמיד נמצא איתך ותמיד מנסה לתקשר איתך. לעיתים, בתוך חיי היומיום המאתגרים, אנחנו מפספסים את התקשורת הזו ולא מקשיבים לקול הפנימי שתמיד מנסה להכווין ולתמוך.</p>
+    <p>השיטה נועדה לשחזר את החיבור הזה לקול הפנימי, לאינטואיציה, כדי לאפשר חוויה יומיומית ישירה וטבעית. דרך QHHT ניתן להבין בצורה ברורה יותר למה דברים הם כפי שהם, משום שהתשובות מגיעות מהתודעה הגבוהה שלך. דרך ההבנה מתאפשר שחרור של רגשות שליליים שנאגרו בגוף, ניקוי חסימות וריפוי. יש בנו יכולת לרפא את עצמנו, והטכניקה מאפשרת להתחבר ליכולת הריפוי ולהחזיר את הגוף והנפש לאיזון ולהרמוניה.</p>
+  </div>
+
+  <div class="disclaimer">
+    <strong>הבהרה חשובה</strong><br>
+    שיטת QHHT אינה נותנת ייעוץ רפואי, המלצה על טיפול רפואי או התערבות בתרופות. החלטות רפואיות יש לקבל מול גורם רפואי מוסמך.
+  </div>
+</section>
+
+<section class="section">
+  <h2>לפני הסשן</h2>
+  <ul>
+    <li>סשן QHHT מתקיים רק פנים אל פנים  לא בזום או מרחוק  ורק באמצעות מטפל או מטפלת מוסמכים של QHHT.</li>
+    <li>הסשן אינו משלב שיטות אחרות לפניו, במהלכו או לאחריו.</li>
+    <li>הסשן מתקיים ללא נוכחות של אנשים נוספים, במקום שקט ופרטי.</li>
+    <li>הסשן נועד להיות חוויה חד־פעמית. אם עולה צורך לחזור, מומלץ להמתין לפחות 6 חודשים כדי לעבד את החוויה.</li>
+  </ul>
+</section>
+
+<section class="section">
+  <h2>מהלך הסשן</h2>
+  <ul>
+    <li><span class="label">משך הסשן:</span> 5 עד 7 שעות, ולכן מתקיים בדרך כלל סשן אחד ביום.</li>
+    <li>חשוב לפנות את כל היום כדי לאפשר רוגע וזמינות מלאה.</li>
+    <li>התזמון הנכון הוא כשהתחושה הפנימית אומרת שזה הזמן, ולא מתוך השפעה חיצונית.</li>
+    <li>הסשן מתקיים בסביבה תומכת, בטוחה ומכבדת.</li>
+    <li>כל סשן שונה והוא חוויה בפני עצמה, לכן מומלץ לשמור על ראש פתוח ולשחרר ציפיות.</li>
+  </ul>
+</section>
+
+<section class="section timeline">
+  <h2>שלבי הסשן</h2>
+
+  <div class="stage">
+    <h3>1. שיחה מקדימה  ראיון</h3>
+    <ul>
+      <li>שיחה פתוחה על החיים מהילדות ועד היום.</li>
+      <li>השיחה מאפשרת למטפל או למטפלת להבין אותך ולשאול שאלות מדויקות.</li>
+      <li>משך השיחה לרוב 2 עד 4 שעות ולעיתים יותר.</li>
+      <li>השיחה יוצרת מרחב בטוח לביטוי  הכול חסוי לחלוטין.</li>
+    </ul>
+  </div>
+
+  <div class="stage">
+    <h3>2. היפנוזה</h3>
+    <ul>
+      <li>נמשכת לרוב 2 עד 2.5 שעות, ועד 3 שעות במידת הצורך.</li>
+      <li>הכניסה להיפנוזה היא מצב טבעי של רגיעה עמוקה שבו התודעה הערה נרגעת, ומתאפשרת גישה ישירה לתת־המודע.</li>
+      <li>זהו מצב טבעי שקורה גם ביומיום.</li>
+      <li>ההיפנוזה בטוחה.</li>
+      <li>ייתכן שתהיה מודעות לסביבה  וזה לא מעיד על היעדר כניסה למצב, אלא יכול לשקף חיבור עמוק יותר לתודעה.</li>
+    </ul>
+
+    <div class="mini-title">עקרונות מרכזיים בהיפנוזה</div>
+    <ul>
+      <li>היפנוזה אינה אובדן שליטה  האדם נשאר מודע ויכול לצאת מהמצב בכל רגע.</li>
+      <li>אין מדובר בשינה, אלא במצב ביניים שבו הגוף רגוע מאוד והתודעה פעילה.</li>
+      <li>זה קורה גם ביומיום בלי לשים לב, למשל כששוקעים במחשבות או בנהיגה אוטומטית.</li>
+      <li>המטופל נכנס בעצמו למצב הזה באמצעות הנחיה של המטפל או המטפלת.</li>
+    </ul>
+
+    <div class="mini-title">שלושה עקרונות חשובים במהלך ההיפנוזה</div>
+    <ul>
+      <li>לומר את הדבר הראשון שעולה  בלי סינון.</li>
+      <li>לענות בפירוט ככל האפשר.</li>
+      <li>לדבר כמה שיותר  זה מעמיק את התהליך.</li>
+    </ul>
+  </div>
+
+  <div class="stage">
+    <h3>3. סיכום קצר לאחר ההיפנוזה</h3>
+    <ul>
+      <li>ייתכן שיהיה זיכרון מלא של הסשן, זיכרון חלקי או ללא זיכרון כלל.</li>
+      <li>החוויה דוהה לעיתים כמו חלום.</li>
+      <li>בתום הסשן תוגש הקלטה להאזנה חוזרת, ומומלץ להאזין לה כמה פעמים.</li>
+    </ul>
+
+    <div class="disclaimer" style="margin-top:3mm;">
+      <strong>שימי לב</strong><br>
+      אין להאזין להקלטה בזמן נהיגה.
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <h2>לאחר הסשן</h2>
+  <ul>
+    <li>ייתכן צורך בזמן לבד ולעיבוד.</li>
+    <li>מומלץ לא לקבוע פעילויות לאותו יום.</li>
+    <li>זהו תהליך של גילוי עצמי, חיבור מחדש וזהות אותנטית.</li>
+    <li>השינוי קורה כשיש בחירה חופשית יחד עם אחריות.</li>
+    <li>כל אדם מתקדם בקצב שלו  אין נכון או לא נכון.</li>
+  </ul>
+</section>
+
+<section class="section">
+  <h2>הכנה לסשן</h2>
+
+  <div class="grid">
+    <div class="card">
+      <h3>רשימת שאלות לתת־המודע</h3>
+      <p style="margin:0 0 3mm;">יש להכין מראש רשימה של 10 עד 15 שאלות.</p>
+      <div class="mini-title" style="margin-top:0;">נושאים נפוצים</div>
+      <ul>
+        <li>בריאות פיזית ונפשית</li>
+        <li>מערכות יחסים</li>
+        <li>קריירה וייעוד</li>
+        <li>כסף ושפע</li>
+        <li>התפתחות רוחנית</li>
+        <li>אירועים חריגים או סינכרוניים</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>הנחיות לקראת המפגש</h3>
+      <ul>
+        <li>להימנע משתיית אלכוהול בלילה שלפני.</li>
+        <li>מומלץ לאכול טוב לפני הסשן.</li>
+        <li>מומלץ להימנע מקפאין או להפחית.</li>
+        <li>מומלץ ללבוש בגדים נוחים.</li>
+        <li>יש להביא את השאלות כשהן כתובות.</li>
+        <li>אפשר לתרגל מראש לומר את הדבר הראשון שעולה מבלי לחשוב.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <h2>תנאים והגבלות</h2>
+  <ul>
+    <li>יש לעדכן על תרופות שמשפיעות על התודעה.</li>
+    <li>הסשן לא יתקיים תחת השפעת אלכוהול או סמים.</li>
+    <li>ייתכן שהסשן אינו מתאים לסובלים מסכיזופרניה, DID או פסיכוזה.</li>
+  </ul>
+
+  <div class="note">
+    המסמך נועד להכנה ולתיאום ציפיות לקראת סשן QHHT, מתוך כוונה ליצור חוויה ברורה, רגועה ומסודרת.
+  </div>
+
+  <div class="closing">
+    <div>מאחלת לך חוויה מהנה</div>
+    <div class="signature">איילה</div>
+  </div>
+</section>
+
+</body>
+</html>
